@@ -1,0 +1,16 @@
+{
+  "engines": {
+    "node": "12.16.2"
+  },
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Davi-Silva/real-time-chat.git",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "scripts": {
+    "build": "concurrently \"cd server && npm install && npm start\" \"cd client && npm install && npm build && yarn serve -l $PORT\""
+  }
+}

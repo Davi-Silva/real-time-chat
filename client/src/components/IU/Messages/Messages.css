@@ -1,0 +1,16 @@
+.messages {
+  padding: 0 0 225px 0;
+  overflow: auto;
+  flex: auto;
+  height: 100%!important;
+  width: 75%;
+  position: fixed;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b78fc;
+}
